@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dozy: Cozy Pet Alarm Clock</title>
+<meta name="description" content="Dozy is an alarm clock with a pet. Your alarm keeps ringing until you finish a small wake-up mission. One alarm and three missions are free forever.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F2F5EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111D22" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+<header class="hero">
+  <img class="icon" src="icon.png" width="112" height="112" alt="The Dozy app icon: Dozy the dormouse asleep in a nightcap, under a crescent moon">
+  <h1>Dozy</h1>
+  <p class="tagline">The cozy pet alarm clock</p>
+</header>
+
+<p class="lead">Dozy is a hazel dormouse who sleeps in a burrow on your iPhone. When your alarm rings, it keeps ringing until you finish a small wake-up mission. Then Dozy wakes up, and you earn acorns and a streak day.</p>
+
+<p class="status">Coming to the App Store <span class="muted">For iPhone, iOS 26.0 or later.</span></p>
+
+<h2>How a morning goes</h2>
+<div class="card">
+  <ol class="steps" role="list">
+    <li><strong>The alarm rings.</strong> Dozy uses Apple's AlarmKit, so it rings on Silent, in a Focus, with your iPhone locked and with the app closed.</li>
+    <li><strong>You do the mission.</strong> Stop the alert without doing it and the alarm comes back after about a minute. Leave the app in the middle of the mission and it comes back in about 15 seconds.</li>
+    <li><strong>Dozy wakes up.</strong> You earn acorns and a streak day. Acorns buy decor for his burrow.</li>
+  </ol>
+</div>
+
+<h2>Nine missions</h2>
+<p>Every mission has three difficulty levels, and you can try any of them without an alarm. Three are free forever. Six come with Dozy Plus.</p>
+<div class="card">
+  <ul class="missions" role="list">
+    <li><span class="name">Smile at Dozy</span> <span class="tag tag-free">Free</span> <span class="what">Hold a smile for the front camera for about 3 seconds.</span></li>
+    <li><span class="name">Shake Dozy awake</span> <span class="tag tag-free">Free</span> <span class="what">Shake your phone.</span></li>
+    <li><span class="name">Count the acorns</span> <span class="tag tag-free">Free</span> <span class="what">Sums on a big number pad.</span></li>
+    <li><span class="name">Walk Dozy to the kitchen</span> <span class="tag tag-plus">Plus</span> <span class="what">Get out of bed and take steps.</span></li>
+    <li><span class="name">Open the curtains</span> <span class="tag tag-plus">Plus</span> <span class="what">Show daylight to the back camera.</span></li>
+    <li><span class="name">Fetch</span> <span class="tag tag-plus">Plus</span> <span class="what">Find a household object. It is checked by image classification on your iPhone.</span></li>
+    <li><span class="name">Morning stretch</span> <span class="tag tag-plus">Plus</span> <span class="what">Squats with the phone held to your chest, counted from the phone's motion.</span></li>
+    <li><span class="name">Remember the path</span> <span class="tag tag-plus">Plus</span> <span class="what">Memory tiles.</span></li>
+    <li><span class="name">Say it like you mean it</span> <span class="tag tag-plus">Plus</span> <span class="what">Type a morning sentence exactly.</span></li>
+  </ul>
+</div>
+
+<h2>Always a way out</h2>
+<p>An alarm should never trap you. Hold "Hold to give up" for 3 seconds and the alarm ends. That counts as a missed morning and earns no acorns. The alarm also gives up by itself after 10 returns or 45 minutes.</p>
+<p>If a mission is not working for you, tap "Can't do this one?" to swap it for Count the acorns. A mission that cannot run (the camera is refused, or the phone has no sensor for it) becomes Count the acorns too.</p>
+<p>Dozy never dies, gets sick or guilt-trips. A missed morning means a sleepy Dozy and no acorns.</p>
+
+<h2>What is free forever</h2>
+<div class="card">
+  <ul>
+    <li>One alarm, with one mission</li>
+    <li>The three free missions: Smile at Dozy, Shake Dozy awake, Count the acorns</li>
+    <li>Three alarm sounds</li>
+    <li>Streaks and the progress calendar</li>
+    <li>The share card</li>
+    <li>Home Screen and Lock Screen widgets</li>
+    <li>The starter decor and most of the burrow shop</li>
+  </ul>
+  <p class="muted">Decor is bought with acorns you earn by getting up, never with money.</p>
+</div>
+
+<h2>Dozy Plus</h2>
+<div class="card">
+  <ul>
+    <li>Unlimited alarms</li>
+    <li>All nine missions</li>
+    <li>Up to three missions stacked on one alarm</li>
+    <li>The wake-up check: a few minutes after the mission Dozy quietly asks "Still up?". No answer in two minutes and the alarm rings again</li>
+    <li>Five more alarm sounds</li>
+    <li>A few Plus decor items</li>
+  </ul>
+  <p class="muted">$24.99 a year with a 7-day free trial, $4.99 a month, or $49.99 once for lifetime. These are US prices. See the <a href="terms.html">terms</a> for how the trial and renewal work.</p>
+</div>
+
+<h2>Privacy</h2>
+<p>No account, no backend, no analytics, no ads and no third-party SDKs. Everything is stored on your iPhone, and no data is collected. Camera missions analyse what the camera sees on your iPhone and discard it. Frames are never saved or sent anywhere. The full <a href="privacy.html">privacy policy</a> is short.</p>
+
+<h2>Made in code</h2>
+<p>Dozy, his burrow and the alarm sounds are original. The art is drawn in code and the sounds are synthesized. No AI images, no stock art.</p>
+
+<nav aria-label="Pages">
+  <a href="privacy.html">Privacy policy</a>
+  <a href="terms.html">Terms of use</a>
+  <a href="support.html">Help and support</a>
+</nav>
+<p class="made">Made by Idan Rokach. <a href="mailto:idanr391@gmail.com">idanr391@gmail.com</a></p>
+
+</main>
+</body>
+</html>
